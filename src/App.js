@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Card from './card';
+import Card from './card/';
 import shots from './shots.json';
 
 
