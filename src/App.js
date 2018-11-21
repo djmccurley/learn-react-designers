@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Styles from './styleVariables';
 import Card from './card/';
 import shots from './shots.json';
 
-
-// const Card = () => {
-//   return (
-//     <div>Card</div>
-//   )
-// }
+const cardGridStyles = {
+  display: 'flex',
+  background: Styles.grey,
+  flexWrap: 'wrap'
+}
 
 const CardGrid = () => {
   return (
-    <div>
+    <div style={cardGridStyles}>
       {shots.map(shot => <Card shotinfo={shot} />)}
     </div>
   )

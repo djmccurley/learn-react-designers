@@ -5,16 +5,17 @@ import Footer from './footer';
 const Timestamp = require('react-timestamp');
 
 const cardStyle = {
-    background: '#e8e8e8',
+    background: '#fff',
     color: '#3f3f3f',
     fontSize: 16,
     fontWeight: 'medium',
-    display: "inline-block",
     padding: 12,
     width: 200,
-    borderRadius: 5,
+    borderRadius: 2,
     margin: 20,
-    border: '1px solid black'
+    boxShadow: '0px 2px 5px 0px rgba(0,0,0,0.20)',
+    display: 'flex',
+    flexWrap: 'wrap' 
 
 };
 
