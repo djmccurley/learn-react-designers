@@ -8,7 +8,8 @@ import shots from './shots.json';
 const cardGridStyles = {
   display: 'flex',
   background: Styles.grey,
-  flexWrap: 'wrap'
+  flexWrap: 'wrap',
+  padding: 40
 }
 
 const CardGrid = () => {
